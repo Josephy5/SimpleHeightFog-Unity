@@ -36,6 +36,7 @@ What the two color height fog eff ect looks like with the eff ect on, the red an
 3. [Optional] If you want to use the simple fog one like the one I implemented, create a new material, go to Universal Render Pipeline > Particles > Unlit, then enable soft particles and ensure the material’s
    surface type is on transparent instead of opaque.
 4. Optionally, you can use one of the prefabs by clicking and dragging one of the prefabs into the scene.
+<br>
 4a. You can scale the plane to make the height fog area bigger or smaller.
 
 ## Credits/Assets used
