@@ -35,8 +35,8 @@ What the two color height fog eff ect looks like with the eff ect on, the red an
 2. Drag the material onto a plane gameobject/mesh that you want to apply the eff ect on, or go to the object’s inspector panel and change its material to the material with the 2 color height fog shader.
 3. [Optional] If you want to use the simple fog one like the one I implemented, create a new material, go to Universal Render Pipeline > Particles > Unlit, then enable soft particles and ensure the material’s
    surface type is on transparent instead of opaque.
-5. Optionally, you can use one of the prefabs by clicking and dragging one of the prefabs into the scene.
-  a. You can scale the plane to make the height fog area bigger or smaller.
+4. Optionally, you can use one of the prefabs by clicking and dragging one of the prefabs into the scene.
+4a. You can scale the plane to make the height fog area bigger or smaller.
 
 ## Credits/Assets used
 Some parts of the code is adapted from Unity Technologies's Particles Unlit code, which is found from https://github.com/Unity-Technologies/Graphics/blob/master/Packages/com.unity.render-pipelines.universal/ShaderLibrary/Particles.hlsl
