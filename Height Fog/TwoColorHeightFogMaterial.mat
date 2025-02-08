@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoColorHeightFogMaterial
+  m_Shader: {fileID: 4800000, guid: a31b21e6ab211784a971b9d20c1ad19b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SMOOTH_FADE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseMask:
+        m_Texture: {fileID: 2800000, guid: 27b7effbf7ee162488d1b8afc2fdd109, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 27b7effbf7ee162488d1b8afc2fdd109, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorBlend: 1
+    - _ColorBlendHeight: 5
+    - _DepthFadeDistance: 2
+    - _FarFade: 0.35
+    - _FogDensity: 1
+    - _FogEnd: 10.66
+    - _FogFalloff: 1
+    - _FogHeightEnd: 10
+    - _FogHeightStart: 0
+    - _FogMaxHeight: 10
+    - _FogMinHeight: 0
+    - _FogOpacity: 1
+    - _FogParticleDensity: 0.25
+    - _FogParticleFade: 0.25
+    - _FogStart: 0
+    - _GlobalFogDensity: 0.5
+    - _HeightEnd: 0.25
+    - _HeightMax: 0.25
+    - _HeightMin: 0
+    - _HeightStart: 0
+    - _NearFade: 0.14
+    - _NoiseContrast: 0.523
+    - _NoiseCutoff: 0.375
+    - _NoiseFrequency: 1
+    - _NoiseInfluence: 0.2
+    - _NoiseScale: 1
+    - _NoiseSize: 0.64
+    - _NoiseSoftness: 0.5
+    - _NoiseStrength: 0.0838
+    - _NoiseThreshold: 0.15
+    - _SmoothFade: 1
+    - _SoftParticleFadeRange: 0.2
+    - _SoftParticleFarFadeDistance: 2
+    - _SoftParticleNearFadeDistance: 0
+    m_Colors:
+    - _ColorA: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorB: {r: 0, g: 0.9896784, b: 1, a: 1}
+    - _FogColorA: {r: 1, g: 1, b: 1, a: 0.49019608}
+    - _FogColorB: {r: 0.8, g: 0.8, b: 0.8, a: 0.49019608}
+    - _MainFogColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _NoiseSpeed: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _ScrollSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _SecondaryFogColor: {r: 0.8, g: 0.8, b: 0.8, a: 0.5}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
