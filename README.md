@@ -23,7 +23,8 @@ You can refer to the effect's documentation for more info (should be in the repo
 
 ## Example[s]
 ![SimpleHeight](https://github.com/user-attachments/assets/61e388e2-fc76-46bd-928a-3c82ca0b8276)
-What the simple height fog eff ect looks like with the effect on.
+What the simple height fog effect looks like with the effect on.
+<br>
 <br>
 ![TwoColorHeight](https://github.com/user-attachments/assets/430e949a-a72f-4631-b077-9892b48c5af9)
 <br>
