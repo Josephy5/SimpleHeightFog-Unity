@@ -1,12 +1,12 @@
 ![TwoColorHeight](https://github.com/user-attachments/assets/430e949a-a72f-4631-b077-9892b48c5af9)
 
 # Simple Height Fog Effect
-![Unity Version](https://img.shields.io/badge/Unity-6000.0.27%27LTS%2B-blueviolet?logo=unity)
+![Unity Version](https://img.shields.io/badge/Unity-6000.0.58%27LTS%2B-blueviolet?logo=unity)
 ![Unity Pipeline Support (Built-In)](https://img.shields.io/badge/BiRP_✔️-darkgreen?logo=unity)
 ![Unity Pipeline Support (URP)](https://img.shields.io/badge/URP_✔️-blue?logo=unity)
 ![Unity Pipeline Support (HDRP)](https://img.shields.io/badge/HDRP_✔️-darkred?logo=unity)
  
-A shader effect that simulates height fog on a plane mesh. It was created for Serious Point Games as part of my studies in shader development. It was created for Unity 6 URP (6000.0.27f1) 
+A shader effect that simulates height fog on a plane mesh. It was created for Serious Point Games as part of my studies in shader development. It was created for Unity 6 URP (6000.0.58f1) 
 but it can work in other unity versions (like Unity 2022 or Unity 2019) and other pipelines (like Built-In).
 
 
@@ -38,9 +38,8 @@ What the two color height fog eff ect looks like with the eff ect on, the red an
 4. Optionally, you can use one of the prefabs by clicking and dragging one of the prefabs into the scene. You can also scale the plane to make the height fog area bigger or smaller.
 
 ## Credits/Assets used
-Some parts of the code is adapted from Unity Technologies's Particles Unlit code, which is found from https://github.com/Unity-Technologies/Graphics/blob/master/Packages/com.unity.render-pipelines.universal/ShaderLibrary/Particles.hlsl
-or in here, https://github.com/Unity-Technologies/Graphics/tree/master/Packages/com.unity.render-pipelines.universal within Shader or ShaderLibrary folder
-
 Some of the code is adapted from my other effects, like the Volumetric Spotlight Shader Graph and Gradient Fog Effect.
-
-The method used to create the simple height fog eff ect is from this Youtube video by Vanmillion Studios, https://www.youtube.com/watch?v=-s7_l3TXWPM.
+<br><br>
+Vertical Volumetric Fog in Unity : Hypercasual Game Development in Unity 6 by Vanmillion Studios ([Youtube Link](https://www.youtube.com/watch?v=-s7_l3TXWPM)), used to create the simple height fog. No license (it is just using Unity's provided Particles shader, he didn't create one)
+<br><br>
+For reference to the code of the Particles shader provided by Unity, You can refer it to Unity Technologies's Particles Unlit code, which is found from [Particles.hlsl](https://github.com/Unity-Technologies/Graphics/blob/master/Packages/com.unity.render-pipelines.universal/ShaderLibrary/Particles.hlsl) or in [here](https://github.com/Unity-Technologies/Graphics/tree/master/Packages/com.unity.render-pipelines.universal) within Shader or ShaderLibrary folder
